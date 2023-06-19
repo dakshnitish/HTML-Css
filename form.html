@@ -5,7 +5,7 @@
   <title>my first form</title>
   <style>
     .asia {
-      float: right
+      padding-top: 0px;
     }
 
     body {
@@ -20,18 +20,53 @@
     form {
       text-align: center;
     }
-    .b{
+
+    .b {
       color: brown;
     }
-    .c{
+
+    .c {
       background-color: aqua;
+    }
+
+    .float-left {
+      float: left;
+    }
+
+    .float-right {
+      float: right;
+    }
+
+    .clearfix {
+      overflow: auto;
+    }
+
+    .bottom-left {
+      position: absolute;
+      bottom: 0;
+      left: 10px;
+    }
+
+    .bottom-right {
+      position: absolute;
+      bottom: 0;
+      right: 10px;
+      color: aquamarine;
     }
   </style>
 </head>
 
 <body>
-  <p style="font-size:30px;"><span>&#128373;&#127996;</span></p>
-  <div class="asia">Asia? &nbsp<button>create an account</button></div>
+  <div class="clearfix">
+    <div class="emo float-left" style="font-size:30px;"><span>&#128373;&#127996;</span></div>
+    <div class="asia float-right">Asia? &nbsp<button>create an account</button></div>
+    <div class="bottom-left">
+      <h3>@2023 my page</h3>
+    </div>
+    <div class="bottom-right">
+      <h3>Terms Privacy Security GetInTouch</h3>
+    </div>
+  </div>
   <form>
     <h1 class="b">Sign in </h1>
     <label for="fname">First Name</label>
