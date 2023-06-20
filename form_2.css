@@ -1,0 +1,14 @@
+body {
+    background-color: grey;
+}
+
+.background {
+    background-image: url("/home/nitish/HTML&CSS/image/wild.jpeg");
+    margin: 50px;
+}
+
+
+.image {
+    width: 100px;
+    /* height: 100px; */
+}
