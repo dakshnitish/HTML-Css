@@ -30,7 +30,7 @@ body {
     padding-top: 21px;
 }
 
-.anc {
+.anc span {
     margin-left: 10px;
 }
 
@@ -46,16 +46,115 @@ body {
     display: flex;
 }
 
+.midpart {
+    color: white;
+    padding-top: 90px;
+    margin-left: 40px;
+}
 
+
+.l span {
+    margin-left: 0px;
+    font-size: xx-large;
+}
+
+.l {
+    margin-top: 30px;
+}
+
+.l img {
+    width: 5px;
+}
 
 .header a {
     color: aqua;
 }
 
-.pic a span:hover {
+
+.anc:hover {
     color: brown;
 }
 
-.lnk a span:hover {
+.anc_1:hover {
     color: brown;
+}
+
+.anc_2 {
+    color: aqua;
+}
+
+.anc_2:hover {
+    color: brown;
+}
+
+.fn {
+    padding-top: 25px;
+}
+
+.fn label {
+    color: aliceblue;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.fn input {
+    margin-left: 40px;
+    width: 100px;
+    border-radius: 8px;
+    height: 20px;
+    background-color: rgb(49, 54, 124);
+}
+
+.userinp {
+    display: flex;
+}
+
+.fn1 label {
+    color: aliceblue;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.fn1 input {
+    margin-left: 40px;
+    width: 250px;
+    border-radius: 8px;
+    height: 20px;
+    background-color: rgb(49, 54, 124);
+}
+
+.fn1 {
+    padding-top: 16px;
+}
+
+.bt {
+    padding-top: 16px;
+    margin-left: 40px;
+    height: 20px;
+}
+
+.bt1 {
+    border-radius: 8px;
+    background-color: rgb(77, 71, 65);
+}
+
+.bt2 {
+    border-radius: 8px;
+    margin-left: 38px;
+    background-color: rgb(77, 71, 65);
+}
+
+.bt2:hover {
+    color: white;
+}
+
+.bt1:hover {
+    color: white;
+}
+
+.pic1 img {
+    width: 80px;
+    float: right;
+    margin-right: 35px;
+    padding-top: 60px;
 }
