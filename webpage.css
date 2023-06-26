@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(135, 216, 166);
+}
+
+#header_image {
+    width: 300px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.top_texts {
+    float: right;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.top_texts span {
+    margin-left: 20px;
+}
+
+.userinp {
+    text-align: center;
+    content: "\f06d";
+}
+
+.bt {
+    padding-top: 10px;
+}
+
+.bt button {
+    width: 120px;
+    height: 30px;
+    background-color: yellow;
+}
+
+.userinp input {
+    width: 250px;
+    height: 25px;
+}
