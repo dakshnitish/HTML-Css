@@ -37,3 +37,32 @@ body {
     width: 250px;
     height: 25px;
 }
+
+.grid_1 {
+    display: flex;
+    margin-left: 200px;
+}
+
+.grid_2 {
+    display: flex;
+    margin-left: 200px;
+}
+
+.grid_3 {
+    display: flex;
+    margin-left: 200px;
+}
+
+.desc h2 {
+    margin-top: 58px;
+    padding-bottom: 2px;
+}
+
+.desc p {
+    margin-top: -24px;
+}
+
+.icon {
+    width: 100px;
+    padding-top: 60px;
+}
