@@ -66,3 +66,39 @@ body {
     width: 100px;
     padding-top: 60px;
 }
+
+.video iframe {
+    width: 500px;
+    margin-left: 390px;
+    padding-top: 100px;
+}
+
+.price ul {
+    list-style-type: none;
+
+}
+
+.price {
+    margin-top: 50px;
+    border-style: solid;
+    margin-right: 1000px;
+    height: 330px;
+    text-align: center;
+}
+
+.label {
+    padding-top: 30px;
+    background-color: grey;
+    height: 50px;
+    text-align: center;
+}
+
+.list {
+    font-style: oblique;
+}
+
+.btn {
+    width: 100px;
+    cursor: pointer;
+    background-color: yellow;
+}
