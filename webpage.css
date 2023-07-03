@@ -81,9 +81,9 @@ body {
 .price {
     margin-top: 50px;
     border-style: solid;
-    margin-right: 1000px;
     height: 330px;
     text-align: center;
+    margin-left: 100px;
 }
 
 .label {
@@ -95,10 +95,37 @@ body {
 
 .list {
     font-style: oblique;
+    margin: 20px;
+    width: 180px;
 }
 
 .btn {
     width: 100px;
     cursor: pointer;
     background-color: yellow;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-right: 4px;
+    float: right;
+    margin-right: 140px;
+    padding-bottom: 40px;
+    padding-left: 610px;
+    background: rgb(128, 180, 248);
+}
+
+.foot span {
+    margin-left: 40px;
+}
+
+.bottom {
+    margin-top: 5px;
+    margin-left: 28px;
 }
