@@ -2,21 +2,12 @@
         background-color: rgb(135, 216, 166);
     }
 
-    .Container {
-        margin: 0 auto;
-        max-width: 800px;
-    }
-
-    .headerContainer {
-        justify-content: center;
-        align-items: center;
-    }
-
     #header_image {
         width: 300px;
         padding-top: 20px;
         margin-left: 20px;
     }
+
 
     .clearFix {
         overflow: auto;
@@ -37,7 +28,10 @@
 
     .top_texts {
         padding-top: 20px;
-        margin-right: 20px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .top_texts span {
@@ -200,6 +194,12 @@
             background-color: yellow;
             margin-bottom: 15px;
         }
+
+        .headerContainer {
+            justify-content: center;
+            align-items: center;
+            display: block;
+        }
     }
 
     @media (max-width:299px) {
@@ -215,6 +215,6 @@
         }
 
         .flex {
-            justify-content: center;
+            text-align: center;
         }
     }
