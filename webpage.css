@@ -5,9 +5,14 @@
     #header_image {
         width: 300px;
         padding-top: 20px;
-        margin-left: 20px;
     }
 
+    .headerContainer {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        flex-wrap: wrap;
+    }
 
     .clearFix {
         overflow: auto;
@@ -27,8 +32,6 @@
     }
 
     .top_texts {
-        padding-top: 20px;
-        margin: 0 auto;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -160,7 +163,7 @@
         }
 
         iframe {
-            width: 100%;
+            width: 50%;
             height: 400px;
         }
 
@@ -194,12 +197,6 @@
             background-color: yellow;
             margin-bottom: 15px;
         }
-
-        .headerContainer {
-            justify-content: center;
-            align-items: center;
-            display: block;
-        }
     }
 
     @media (max-width:299px) {
@@ -216,5 +213,11 @@
 
         .flex {
             text-align: center;
+        }
+    }
+
+    @media (max-width:600px) {
+        .headerContainer {
+            justify-content: center;
         }
     }
